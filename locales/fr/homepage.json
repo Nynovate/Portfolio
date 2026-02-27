@@ -1,0 +1,54 @@
+{
+	"nav": {
+		"intro": "Intro",
+		"skills": "Skills",
+		"projects": "Projets",
+		"contactMe": "Me contacter"
+	},
+	"headers": {
+		"me": {
+			"firstName": "RAKOTOARIVONY",
+			"lastName": "Razanajohary Ny Hasina",
+			"description": "Étudiant à 42 Antananarivo et passionné par l’informatique, je cultive un état d’esprit axé sur l’apprentissage constant, la discipline et la recherche de solutions efficaces. Chaque projet représente pour moi une opportunité de grandir, d’expérimenter et de repousser mes limites techniques.",
+			"title": "Développeur logiciel & jeux vidéo"
+		}
+	},
+	"skills": {
+		"C": "Un langage de programmation procédural de bas niveau axé sur la performance et le contrôle de la mémoire, largement utilisé pour la programmation système, le développement embarqué et les applications nécessitant de hautes performances.",
+		"C++": "Une extension du C prenant en charge la programmation orientée objet et générique, utilisée pour les logiciels haute performance tels que les moteurs de jeu, les systèmes temps réel et les applications complexes.",
+		"GDScript": "Un langage de script de haut niveau conçu spécifiquement pour le moteur Godot, optimisé pour le développement rapide de jeux avec une syntaxe simple et proche de Python.",
+		"Bash": "Un shell Unix et un langage de script utilisé pour automatiser des tâches, gérer des systèmes et créer efficacement des flux de travail en ligne de commande.",
+		"Unix": "Une famille de systèmes d’exploitation multitâches et une philosophie mettant l’accent sur la simplicité, la modularité et des outils en ligne de commande puissants pour les environnements de développement.",
+		"HTML": "Le langage de balisage standard utilisé pour structurer le contenu sur le web, définissant des éléments tels que les titres, paragraphes, images et liens.",
+		"CSS": "Un langage de feuilles de style utilisé pour contrôler la présentation visuelle des pages web, incluant la mise en page, les couleurs, la typographie et le design responsive.",
+		"JS": "JavaScript est le langage de programmation principal du web, permettant un comportement dynamique et interactif dans les navigateurs.",
+		"TS": "TypeScript est un sur-ensemble fortement typé de JavaScript qui améliore la scalabilité et la maintenabilité des grandes applications.",
+		"React": "Une bibliothèque JavaScript populaire pour construire des interfaces utilisateur modernes basées sur des composants, en particulier des applications monopage, avec un rendu efficace et une gestion d’état optimisée."
+	},
+	"projects": {
+		"minishell": {
+			"title": "Implémentation d’un Shell",
+			"content": "Implémentation d’un shell entièrement fonctionnel en C, prenant en charge l’exécution de commandes, les pipes, les redirections d’entrée / sortie, les commandes intégrées, les variables d’environnement ainsi qu’un contrôle basique des tâches, avec une gestion robuste des erreurs et une analyse interactive des entrées utilisateur."
+		},
+		"miniRT": {
+			"title": "Mini moteur de ray tracing",
+			"content": "Implémentation d’un mini moteur de ray tracing en C, comprenant des calculs précis d’intersection rayon–objet, des modèles d’éclairage de base, des ombres et le rendu de scènes 3D. Développement d’algorithmes pour le rendu de sphères et de plans, la gestion des réflexions lumineuses et la production d’un rendu visuel réaliste pour des scènes simples."
+		},
+		"webserv": {
+			"title": "Serveur HTTP/1.1",
+			"content": "Implémentation d’un serveur HTTP/1.1 en C utilisant les sockets, prenant en charge les méthodes GET, POST et DELETE, les scripts CGI ainsi que la gestion non bloquante de plusieurs clients. Conception avec une analyse robuste des requêtes, une gestion efficace des connexions via le multiplexage et une gestion appropriée des erreurs afin d’assurer des interactions client fiables et concurrentes."
+		},
+		"casa": {
+			"title": "Plateforme immobilière",
+			"content": "Développement d’une plateforme immobilière intégrant une recherche en langage naturel basée sur l’IA, permettant aux utilisateurs de décrire le bien qu’ils souhaitent en langage courant et de recevoir des annonces précises et pertinentes sans avoir à appliquer manuellement de multiples filtres."
+		},
+		"notifyuck": {
+			"title": "Notifyuck",
+			"content": "Développement d’un gestionnaire de notifications léger en C, avec analyse de modèles (templates), affichage coloré dans le terminal et prise en charge de messages personnalisés, permettant un affichage centralisé et modulaire des alertes."
+		},
+		"brawl": {
+			"title": "Jeu de Combat (WIP)",
+			"content": "Un jeu de combat en pixel art inspiré de M.U.G.E.N, développé pendant mon temps libre pour expérimenter des mécaniques de combat personnalisées. Réalisé en C++ avec GDExtension dans Godot, mettant en avant ma capacité à implémenter des systèmes de gameplay réactifs, la gestion des entrées en temps réel et l’intégration avec le moteur de jeu."
+		}
+	}
+}

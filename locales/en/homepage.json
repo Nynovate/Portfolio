@@ -1,0 +1,54 @@
+{
+	"nav": {
+		"intro": "Intro",
+		"skills": "Skills",
+		"projects": "Projects",
+		"contactMe": "Contact me"
+	},
+	"headers": {
+		"me": {
+			"firstName": "RAKOTOARIVONY",
+			"lastName": "Razanajohary Ny Hasina",
+			"description": "Student at 42 Antananarivo and passionate about computer science, I cultivate a mindset focused on continuous learning, discipline, and the search for efficient solutions. Each project represents for me an opportunity to grow, experiment, and push my technical limits.",
+			"title": "Software & Game Developer"
+		}
+	},
+	"skills": {
+		"C": "A low-level procedural programming language focused on performance and memory control, widely used for systems programming, embedded development, and performance-critical applications.",
+		"C++": "An extension of C supporting object-oriented and generic programming, used for high-performance software such as game engines, real-time systems, and complex applications.",
+		"GDScript": "A high-level scripting language designed specifically for the Godot engine, optimized for rapid game development with a simple and Python-like syntax.",
+		"Bash": "A Unix shell and scripting language used to automate tasks, manage systems, and create command-line workflows efficiently.",
+		"Unix": "A family of multitasking operating systems and a philosophy emphasizing simplicity, modularity, and powerful command-line tools for development environments.",
+		"HTML": "The standard markup language used to structure content on the web, defining elements such as headings, paragraphs, images, and links.",
+		"CSS": "A stylesheet language used to control the visual presentation of web pages, including layout, colors, typography, and responsive design.",
+		"JS": "JavaScript is the core programming language of the web, enabling dynamic and interactive behavior in browsers.",
+		"TS": "TypeScript is a strongly-typed superset of JavaScript that improves scalability and maintainability in large applications.",
+		"React": "A popular JavaScript library for building modern, component-based user interfaces, particularly single-page applications, with efficient rendering and state management."
+	},
+	"projects": {
+		"minishell": {
+			"title": "Shell Implementation",
+			"content": "Implementation of a fully functional shell in C, supporting command execution, pipes, input/output redirections, built-in commands, environment variables, and basic job control, with robust error handling and interactive user input parsing."
+		},
+		"miniRT": {
+			"title": "Mini Ray Tracing Engine",
+			"content": "Implementation of a mini ray tracing engine in C, including precise ray–object intersection calculations, basic lighting models, shadows, and 3D scene rendering. Development of algorithms for rendering spheres and planes, handling light reflections, and producing realistic visual output for simple scenes."
+		},
+		"webserv": {
+			"title": "HTTP/1.1 Server",
+			"content": "Implementation of an HTTP/1.1 server in C using sockets, supporting GET, POST, and DELETE methods, CGI scripts, and non-blocking handling of multiple clients. Designed with robust request parsing, efficient connection management via multiplexing, and proper error handling to ensure reliable and concurrent client interactions."
+		},
+		"casa": {
+			"title": "Real Estate Platform",
+			"content": "Development of a real estate platform integrating AI-based natural language search, allowing users to describe the property they want in everyday language and receive accurate and relevant listings without manually applying multiple filters."
+		},
+		"notifyuck": {
+			"title": "Notifyuck",
+			"content": "Development of a lightweight notification manager in C, with template parsing, colored terminal display, and support for custom messages, enabling centralized and modular alert presentation."
+		},
+		"brawl": {
+			"title": "Fighting Game (WIP)",
+			"content": "A pixel art fighting game inspired by M.U.G.E.N, developed in my spare time to experiment with custom combat mechanics. Built with C++ using GDExtension in Godot, showcasing my ability to implement responsive gameplay systems, real-time input handling, and game engine integration."
+		}
+	}
+}
